@@ -14,7 +14,7 @@
           <mxGeometry x="485" y="465" width="276" height="247" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--5" value="用户界面层 MFC Frontend" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="506" y="272" width="809" height="139" as="geometry" />
+          <mxGeometry x="520" y="250" width="809" height="139" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--6" value="反汇编视图" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="541" y="280" width="141" height="48" as="geometry" />
