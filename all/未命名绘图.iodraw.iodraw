@@ -17,16 +17,16 @@
           <mxGeometry x="506" y="272" width="809" height="139" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--6" value="反汇编视图" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="541" y="318" width="141" height="48" as="geometry" />
+          <mxGeometry x="541" y="280" width="141" height="48" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--7" value="寄存器窗口" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="710" y="318" width="140" height="48" as="geometry" />
+          <mxGeometry x="710" y="280" width="140" height="48" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--8" value="内存/栈视图" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="921" y="318" width="148" height="48" as="geometry" />
+          <mxGeometry x="960" y="280" width="148" height="48" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--9" value="AI 交互对话框" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="318" width="160" height="48" as="geometry" />
+          <mxGeometry x="1120" y="280" width="160" height="48" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--10" value="工具调度总线" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="533" y="490" width="157" height="48" as="geometry" />
