@@ -1,68 +1,68 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="CzfinJLXPahiZ3lKm8Ax">
-    <mxGraphModel dx="3058" dy="1299" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2665" dy="1069" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--2" value="智能化调试系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="40" width="1564" height="618" as="geometry" />
+          <mxGeometry x="-230" y="120" width="1564" height="618" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--3" value="底层调试引擎层 DebuggerEngine.dll" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="135" width="675" height="568" as="geometry" />
+          <mxGeometry x="-210" y="145" width="675" height="568" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--4" value="AI 辅助分析层 AITools.dll" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="735" y="455" width="276" height="247" as="geometry" />
+          <mxGeometry x="485" y="465" width="276" height="247" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--5" value="用户界面层 MFC Frontend" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="756" y="262" width="809" height="139" as="geometry" />
+          <mxGeometry x="506" y="272" width="809" height="139" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--6" value="反汇编视图" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="791" y="308" width="141" height="48" as="geometry" />
+          <mxGeometry x="541" y="318" width="141" height="48" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--7" value="寄存器窗口" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="981" y="308" width="140" height="48" as="geometry" />
+          <mxGeometry x="710" y="318" width="140" height="48" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--8" value="内存/栈视图" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1171" y="308" width="148" height="48" as="geometry" />
+          <mxGeometry x="921" y="318" width="148" height="48" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--9" value="AI 交互对话框" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="308" width="160" height="48" as="geometry" />
+          <mxGeometry x="1120" y="318" width="160" height="48" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--10" value="工具调度总线" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="783" y="480" width="157" height="48" as="geometry" />
+          <mxGeometry x="533" y="490" width="157" height="48" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--11" value="17个专用分析工具集" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="770" y="606" width="206" height="48" as="geometry" />
+          <mxGeometry x="520" y="616" width="206" height="48" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--12" value="调试事件循环" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="299" y="160" width="157" height="48" as="geometry" />
+          <mxGeometry x="49" y="170" width="157" height="48" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--13" value="执行与断点控制" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="75" y="606" width="172" height="48" as="geometry" />
+          <mxGeometry x="-175" y="616" width="172" height="48" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--14" value="数据采集模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="297" y="606" width="157" height="48" as="geometry" />
+          <mxGeometry x="47" y="616" width="157" height="48" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--15" value="Zydis反汇编引擎" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="504" y="606" width="177" height="48" as="geometry" />
+          <mxGeometry x="254" y="616" width="177" height="48" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--16" value="大语言模型&#xa;LLM API" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1619" y="583" width="95" height="95" as="geometry" />
+          <mxGeometry x="1369" y="593" width="95" height="95" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--17" value="被调试目标进程&#xa;Target Process" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1619" y="287" width="128" height="89" as="geometry" />
+          <mxGeometry x="1369" y="297" width="128" height="89" as="geometry" />
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--18" value="" style="curved=1;startArrow=block;endArrow=block;exitX=0.53;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="QFTo-ZVMmZXoaw9pMmK--10" target="QFTo-ZVMmZXoaw9pMmK--11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="873" y="556" />
+              <mxPoint x="623" y="566" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--19" value="1. 自然语言交互" style="curved=1;startArrow=block;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.33;rounded=0;" edge="1" parent="1" source="QFTo-ZVMmZXoaw9pMmK--9" target="QFTo-ZVMmZXoaw9pMmK--16">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1450" y="556" />
+              <mxPoint x="1200" y="566" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -74,21 +74,21 @@
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--21" value="3. 多轮工具调用闭环" style="curved=1;startArrow=block;endArrow=block;exitX=0.74;exitY=1.01;entryX=0;entryY=0.45;rounded=0;" edge="1" parent="1" source="QFTo-ZVMmZXoaw9pMmK--10" target="QFTo-ZVMmZXoaw9pMmK--16">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="942" y="556" />
+              <mxPoint x="692" y="566" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--22" value="4. C导出接口调用" style="curved=1;startArrow=none;endArrow=block;exitX=0.29;exitY=1.01;entryX=1;entryY=0.29;rounded=0;" edge="1" parent="1" source="QFTo-ZVMmZXoaw9pMmK--10" target="QFTo-ZVMmZXoaw9pMmK--13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="791" y="556" />
+              <mxPoint x="541" y="566" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="QFTo-ZVMmZXoaw9pMmK--23" value="5. 数据获取请求" style="curved=1;startArrow=none;endArrow=block;exitX=0.36;exitY=1.01;entryX=1;entryY=0.23;rounded=0;" edge="1" parent="1" source="QFTo-ZVMmZXoaw9pMmK--10" target="QFTo-ZVMmZXoaw9pMmK--14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="815" y="556" />
+              <mxPoint x="565" y="566" />
             </Array>
           </mxGeometry>
         </mxCell>
