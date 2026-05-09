@@ -1,0 +1,98 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="rFV88C4Ruort88F4IT1S">
+    <mxGraphModel dx="1562" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="V-sbplGds8qbHCOgamHo-1" value="智能化调试系统总体架构" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="1026" height="949" as="geometry" />
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-2" value="核心调试引擎层" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="228" y="432" width="265" height="512" as="geometry" />
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-3" value="调试事件循环" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="V-sbplGds8qbHCOgamHo-2">
+          <mxGeometry x="62" y="43" width="157" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-4" value="执行控制模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="V-sbplGds8qbHCOgamHo-2">
+          <mxGeometry x="62" y="141" width="156" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-5" value="断点管理模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="V-sbplGds8qbHCOgamHo-2">
+          <mxGeometry x="62" y="240" width="156" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-6" value="反汇编与代码分析" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="V-sbplGds8qbHCOgamHo-2">
+          <mxGeometry x="46" y="338" width="190" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-7" value="运行时数据采集" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="V-sbplGds8qbHCOgamHo-2">
+          <mxGeometry x="54" y="437" width="173" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-8" value="AI辅助分析层" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="122" y="241" width="822" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-9" value="上下文提取与提示词构造" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="V-sbplGds8qbHCOgamHo-8">
+          <mxGeometry x="46" y="43" width="236" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-10" value="工具调用分发模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="V-sbplGds8qbHCOgamHo-8">
+          <mxGeometry x="357" y="43" width="188" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-11" value="调试分析工具集" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="V-sbplGds8qbHCOgamHo-8">
+          <mxGeometry x="620" y="43" width="173" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="V-sbplGds8qbHCOgamHo-8" source="V-sbplGds8qbHCOgamHo-9" target="V-sbplGds8qbHCOgamHo-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="V-sbplGds8qbHCOgamHo-8" source="V-sbplGds8qbHCOgamHo-10" target="V-sbplGds8qbHCOgamHo-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-14" value="前端交互界面层" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="55" y="45" width="956" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-15" value="反汇编与状态视图" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="V-sbplGds8qbHCOgamHo-14">
+          <mxGeometry x="43" y="46" width="189" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-16" value="断点与调用栈视图" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="V-sbplGds8qbHCOgamHo-14">
+          <mxGeometry x="282" y="46" width="188" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-17" value="调试控制与命令输入" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="V-sbplGds8qbHCOgamHo-14">
+          <mxGeometry x="520" y="46" width="204" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-18" value="AI交互对话框" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="V-sbplGds8qbHCOgamHo-14">
+          <mxGeometry x="774" y="46" width="155" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-19" value="大语言模型服务 (LLM)" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1081" y="602" width="171" height="171" as="geometry" />
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-20" value="被调试进程 (Target)" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="282" y="1041" width="157" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-21" value="UI事件 / 状态展示" style="curved=1;startArrow=block;endArrow=block;strokeWidth=3;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="V-sbplGds8qbHCOgamHo-14" target="V-sbplGds8qbHCOgamHo-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-22" value="工具调度 / 证据回传" style="curved=1;startArrow=block;endArrow=block;strokeWidth=3;exitX=0.37;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="V-sbplGds8qbHCOgamHo-8" target="V-sbplGds8qbHCOgamHo-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-23" value="Prompt / Function Calling" style="curved=1;startArrow=block;endArrow=block;strokeWidth=3;exitX=0.65;exitY=1;entryX=0;entryY=0.16;rounded=0;" edge="1" parent="1" source="V-sbplGds8qbHCOgamHo-8" target="V-sbplGds8qbHCOgamHo-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="732" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V-sbplGds8qbHCOgamHo-24" value="执行控制 / 状态读取" style="curved=1;startArrow=block;endArrow=block;strokeWidth=3;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="V-sbplGds8qbHCOgamHo-2" target="V-sbplGds8qbHCOgamHo-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
