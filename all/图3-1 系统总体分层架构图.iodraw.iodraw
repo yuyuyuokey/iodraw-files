@@ -8,16 +8,16 @@
           <mxGeometry x="370.5" y="30" width="141" height="48" as="geometry" />
         </mxCell>
         <mxCell id="fZJicZ7JMNQ5y4besGpF-2" value="大语言模型服务" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="20" y="141" width="173" height="48" as="geometry" />
+          <mxGeometry x="84" y="141" width="173" height="48" as="geometry" />
         </mxCell>
         <mxCell id="fZJicZ7JMNQ5y4besGpF-3" value="前端交互界面层" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="21" y="279" width="172" height="48" as="geometry" />
+          <mxGeometry x="85" y="279" width="172" height="48" as="geometry" />
         </mxCell>
         <mxCell id="fZJicZ7JMNQ5y4besGpF-4" value="AI辅助分析层" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="257" y="400" width="155" height="48" as="geometry" />
         </mxCell>
         <mxCell id="fZJicZ7JMNQ5y4besGpF-5" value="工具调用与数据采集层" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="331" y="279" width="220" height="48" as="geometry" />
+          <mxGeometry x="307" y="279" width="220" height="48" as="geometry" />
         </mxCell>
         <mxCell id="fZJicZ7JMNQ5y4besGpF-6" value="核心调试引擎层" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="355" y="141" width="172" height="48" as="geometry" />
@@ -60,7 +60,7 @@
         <mxCell id="fZJicZ7JMNQ5y4besGpF-12" value="Prompt / 分析请求" style="curved=1;startArrow=none;endArrow=block;exitX=0.62;exitY=0;entryX=0.63;entryY=1;rounded=0;" parent="1" source="fZJicZ7JMNQ5y4besGpF-3" target="fZJicZ7JMNQ5y4besGpF-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="169" y="234" />
+              <mxPoint x="230" y="240" />
             </Array>
           </mxGeometry>
         </mxCell>
