@@ -143,8 +143,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uaK37CkFKmm2BOdsdKgM-333" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="700" width="120" height="60" as="geometry" />
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-333" value="用户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1157" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-334" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="500" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
