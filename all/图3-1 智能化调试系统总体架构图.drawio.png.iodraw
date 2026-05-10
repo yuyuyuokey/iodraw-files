@@ -388,6 +388,72 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-65" value="底层调试引擎 (DebuggerEngine.dll)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1456" width="326" height="229" as="geometry" />
+        </mxCell>
+        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-66" value="调试事件循环 | 执行控制模块 | 断点管理模块 | 反汇编引擎&#xa;函数分析模块 | 数据采集模块 | PE解析模块 | 反反调试模块 | ASLR重定位模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="BlRbaSfMhnkEy8Os2Bxm-65">
+          <mxGeometry x="43" y="46" width="256" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-67" value="AI 工具层 (AITools.dll)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1112" y="1190" width="256" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-68" value="工具调度总线 | 代码理解工具组 | 验证分析工具组&#xa;数据流工具组 | 接口发现工具组" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="BlRbaSfMhnkEy8Os2Bxm-67">
+          <mxGeometry x="43" y="46" width="186" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-69" value="图形界面层 (DebuggerGUI.exe)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="972" y="923" width="322" height="194" as="geometry" />
+        </mxCell>
+        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-70" value="反汇编视图 | 寄存器窗口 | 内存视图 | 栈视图&#xa;断点列表 | 调用栈视图 | 内存布局视图 | AI交互对话框" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="BlRbaSfMhnkEy8Os2Bxm-69">
+          <mxGeometry x="43" y="46" width="252" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-71" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="760" width="243" height="1071" as="geometry" />
+        </mxCell>
+        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-72" value="被调试进程" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1471" y="1757" width="141" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-73" value="大语言模型服务" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="794" width="173" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-74" value="图3-1 智能化调试系统总体架构图" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1698" y="785" width="253" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-75" value="AI工具调度协议" style="curved=1;startArrow=none;endArrow=block;exitX=0.74;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="BlRbaSfMhnkEy8Os2Bxm-69" target="BlRbaSfMhnkEy8Os2Bxm-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="1153" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-76" value="C导出调试API" style="curved=1;startArrow=none;endArrow=block;exitX=0.26;exitY=1;entryX=0.25;entryY=0;rounded=0;" edge="1" parent="1" source="BlRbaSfMhnkEy8Os2Bxm-69" target="BlRbaSfMhnkEy8Os2Bxm-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1027" y="1153" />
+              <mxPoint x="1027" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-77" value="C导出调试API" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.75;entryY=0;rounded=0;" edge="1" parent="1" source="BlRbaSfMhnkEy8Os2Bxm-67" target="BlRbaSfMhnkEy8Os2Bxm-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1240" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-78" value="HTTP/SSE通信" style="curved=1;startArrow=block;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.23;rounded=0;" edge="1" parent="1" source="BlRbaSfMhnkEy8Os2Bxm-73" target="BlRbaSfMhnkEy8Os2Bxm-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1542" y="887" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-79" value="调试控制与事件交互" style="curved=1;startArrow=block;endArrow=block;exitX=1;exitY=0.76;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="BlRbaSfMhnkEy8Os2Bxm-65" target="BlRbaSfMhnkEy8Os2Bxm-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1542" y="1721" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
