@@ -4,6 +4,193 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-1" value="&lt;b&gt;图3-2 调试会话与事件分发流程图&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="629" y="20" width="224" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-2" value="开始调试会话" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="663" y="139" width="156" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-3" value="建立方式选择" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="669" y="237" width="145" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-4" value="创建被调试进程&#xa;CreateProcess" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="536" y="455" width="173" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-5" value="附加到已有进程&#xa;DebugActiveProcess" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="759" y="455" width="202" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-6" value="创建调试线程" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="663" y="571" width="157" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-7" value="等待调试事件&#xa;WaitForDebugEvent" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="641" y="669" width="201" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-8" value="接收调试事件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="459" y="785" width="157" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-9" value="事件类型分发" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="465" y="883" width="144" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-10" value="保存进程信息、PEB修补&#xa;断点重定位、初始化反汇编缓存" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1100" width="252" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-11" value="断点/单步异常判定" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="322" y="1118" width="196" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-12" value="线程登记与移除" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="568" y="1118" width="173" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-13" value="更新运行状态并准备退出" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="791" y="1118" width="236" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-14" value="继续目标程序执行&#xa;ContinueDebugEvent" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="433" y="1234" width="209" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-15" value="是否退出&#xa;事件循环" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="675" y="1350" width="132" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-16" value="清理状态并结束调试会话" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="623" y="1554" width="236" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-17" value="结束" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="713" y="1652" width="57" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-1" target="uaK37CkFKmm2BOdsdKgM-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-2" target="uaK37CkFKmm2BOdsdKgM-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-20" value="创建" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.96;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-3" target="uaK37CkFKmm2BOdsdKgM-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="623" y="418" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-21" value="附加" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.96;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-3" target="uaK37CkFKmm2BOdsdKgM-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="418" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.13;entryY=-0.01;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-4" target="uaK37CkFKmm2BOdsdKgM-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="623" y="546" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.87;entryY=-0.01;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-5" target="uaK37CkFKmm2BOdsdKgM-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="546" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-6" target="uaK37CkFKmm2BOdsdKgM-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.93;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-7" target="uaK37CkFKmm2BOdsdKgM-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="538" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-8" target="uaK37CkFKmm2BOdsdKgM-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-27" value="进程创建" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.64;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-9" target="uaK37CkFKmm2BOdsdKgM-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="146" y="1064" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-28" value="异常事件" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.97;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-9" target="uaK37CkFKmm2BOdsdKgM-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="1064" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-29" value="线程事件" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.97;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-9" target="uaK37CkFKmm2BOdsdKgM-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="1064" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-30" value="进程退出" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.65;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-9" target="uaK37CkFKmm2BOdsdKgM-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="909" y="1064" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.26;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-10" target="uaK37CkFKmm2BOdsdKgM-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="146" y="1209" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.18;entryY=0;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-11" target="uaK37CkFKmm2BOdsdKgM-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="1209" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-33" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.82;entryY=0;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-12" target="uaK37CkFKmm2BOdsdKgM-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="1209" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.25;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-13" target="uaK37CkFKmm2BOdsdKgM-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="909" y="1209" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.27;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-14" target="uaK37CkFKmm2BOdsdKgM-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="538" y="1325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-36" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.36;entryX=1;entryY=0.77;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-15" target="uaK37CkFKmm2BOdsdKgM-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1062" y="1325" />
+              <mxPoint x="1062" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-37" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-15" target="uaK37CkFKmm2BOdsdKgM-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.49;entryY=0.01;rounded=0;" edge="1" parent="1" source="uaK37CkFKmm2BOdsdKgM-16" target="uaK37CkFKmm2BOdsdKgM-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
