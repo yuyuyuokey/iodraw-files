@@ -1,29 +1,11 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="SyeFaiIl5Tcj86jlXadI">
-    <mxGraphModel dx="2603" dy="1515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1776" dy="1515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-2" value="AI 工具层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2521" y="347" width="949" height="244" as="geometry" />
-        </mxCell>
         <mxCell id="BlRbaSfMhnkEy8Os2Bxm-19" value="接口发现工具组" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="3261" y="517" width="173" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-23" value="反汇编引擎" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="550" y="663" width="141" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-24" value="函数分析模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="741" y="663" width="156" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-25" value="数据采集模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="663" width="157" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-26" value="PE解析模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1892" y="663" width="142" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-27" value="反反调试模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="2084" y="663" width="157" height="48" as="geometry" />
         </mxCell>
         <mxCell id="BlRbaSfMhnkEy8Os2Bxm-28" value="ASLR重定位模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="2290" y="663" width="175" height="48" as="geometry" />
@@ -34,14 +16,6 @@
               <mxPoint x="3348" y="456" />
             </Array>
             <mxPoint x="2860" y="404.1600000000003" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-62" value="AI工具调度协议" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.72;entryY=0;rounded=0;" edge="1" parent="1" source="BlRbaSfMhnkEy8Os2Bxm-19" target="BlRbaSfMhnkEy8Os2Bxm-26">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="3348" y="591" />
-              <mxPoint x="2042" y="627" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BlRbaSfMhnkEy8Os2Bxm-65" value="底层调试引擎 (DebuggerEngine.dll)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
