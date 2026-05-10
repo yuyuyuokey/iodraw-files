@@ -10,12 +10,6 @@
         <mxCell id="BlRbaSfMhnkEy8Os2Bxm-19" value="接口发现工具组" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="3261" y="517" width="173" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-21" value="执行控制模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="55" y="663" width="156" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="BlRbaSfMhnkEy8Os2Bxm-22" value="断点管理模块" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="344" y="663" width="156" height="48" as="geometry" />
-        </mxCell>
         <mxCell id="BlRbaSfMhnkEy8Os2Bxm-23" value="反汇编引擎" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="550" y="663" width="141" height="48" as="geometry" />
         </mxCell>
