@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="SyeFaiIl5Tcj86jlXadI">
-    <mxGraphModel dx="735" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1404" dy="1299" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,7 @@
           <mxGeometry x="43" y="46" width="256" height="154" as="geometry" />
         </mxCell>
         <mxCell id="BlRbaSfMhnkEy8Os2Bxm-67" value="AI 工具层 (AITools.dll)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="1112" y="1190" width="256" height="194" as="geometry" />
+          <mxGeometry x="1113" y="1170" width="256" height="194" as="geometry" />
         </mxCell>
         <mxCell id="BlRbaSfMhnkEy8Os2Bxm-68" value="工具调度总线 | 代码理解工具组 | 验证分析工具组&#xa;数据流工具组 | 接口发现工具组" style="whiteSpace=wrap;strokeWidth=2;" parent="BlRbaSfMhnkEy8Os2Bxm-67" vertex="1">
           <mxGeometry x="43" y="46" width="186" height="119" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry x="1455" y="794" width="173" height="48" as="geometry" />
         </mxCell>
         <mxCell id="BlRbaSfMhnkEy8Os2Bxm-74" value="图3-1 智能化调试系统总体架构图" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1698" y="785" width="253" height="66" as="geometry" />
+          <mxGeometry x="988" y="750" width="253" height="66" as="geometry" />
         </mxCell>
         <mxCell id="BlRbaSfMhnkEy8Os2Bxm-75" value="AI工具调度协议" style="curved=1;startArrow=none;endArrow=block;exitX=0.74;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="BlRbaSfMhnkEy8Os2Bxm-69" target="BlRbaSfMhnkEy8Os2Bxm-67" edge="1">
           <mxGeometry relative="1" as="geometry">
