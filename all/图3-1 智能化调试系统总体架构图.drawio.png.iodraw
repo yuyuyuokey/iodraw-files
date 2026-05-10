@@ -51,14 +51,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BlRbaSfMhnkEy8Os2Bxm-78" value="HTTP/SSE通信" style="curved=1;startArrow=block;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.23;rounded=0;" parent="1" source="BlRbaSfMhnkEy8Os2Bxm-73" target="BlRbaSfMhnkEy8Os2Bxm-69" edge="1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.3519" y="9" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1470" y="950" />
             </Array>
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BlRbaSfMhnkEy8Os2Bxm-79" value="调试控制与事件交互" style="curved=1;startArrow=block;endArrow=block;exitX=1;exitY=0.76;entryX=0.5;entryY=0;rounded=0;" parent="1" source="BlRbaSfMhnkEy8Os2Bxm-65" target="BlRbaSfMhnkEy8Os2Bxm-72" edge="1">
-          <mxGeometry x="0.6919" y="-40" relative="1" as="geometry">
+          <mxGeometry x="0.748" y="8" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1542" y="1721" />
             </Array>
