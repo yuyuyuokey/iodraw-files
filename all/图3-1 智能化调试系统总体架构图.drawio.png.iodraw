@@ -23,7 +23,7 @@
           <mxGeometry x="43" y="46" width="252" height="119" as="geometry" />
         </mxCell>
         <mxCell id="BlRbaSfMhnkEy8Os2Bxm-72" value="被调试进程" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="1471" y="1757" width="141" height="48" as="geometry" />
+          <mxGeometry x="1410" y="1510" width="141" height="48" as="geometry" />
         </mxCell>
         <mxCell id="BlRbaSfMhnkEy8Os2Bxm-73" value="大语言模型服务" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="1430" y="1100" width="173" height="48" as="geometry" />
@@ -58,10 +58,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BlRbaSfMhnkEy8Os2Bxm-79" value="调试控制与事件交互" style="curved=1;startArrow=block;endArrow=block;exitX=1;exitY=0.76;entryX=0.5;entryY=0;rounded=0;" parent="1" source="BlRbaSfMhnkEy8Os2Bxm-65" target="BlRbaSfMhnkEy8Os2Bxm-72" edge="1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.6919" y="-40" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1542" y="1721" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
