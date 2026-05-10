@@ -143,8 +143,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="uaK37CkFKmm2BOdsdKgM-332" value="底层调试引擎" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="250" width="150" height="1057" as="geometry" />
+        <mxCell id="uaK37CkFKmm2BOdsdKgM-333" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="700" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
