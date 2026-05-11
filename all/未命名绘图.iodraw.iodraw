@@ -22,6 +22,9 @@
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-71" value="断点命中或异常暂停" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="40" y="510" width="204" height="48" as="geometry" />
         </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-72" target="LJTLL_L3JtGTRpQjIWLJ-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-72" value="读取现场并回调界面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="40" y="600" width="204" height="48" as="geometry" />
         </mxCell>
@@ -75,16 +78,6 @@
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-85" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-74" target="LJTLL_L3JtGTRpQjIWLJ-75">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-87" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="370" y="480" as="sourcePoint" />
-            <mxPoint x="420" y="430" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="420" y="480" />
-              <mxPoint x="370" y="430" />
-            </Array>
           </mxGeometry>
         </mxCell>
       </root>
