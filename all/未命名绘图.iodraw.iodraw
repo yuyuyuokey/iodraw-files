@@ -1,9 +1,96 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="RaQ8v2Y8b0hMOVi8FPgX">
-    <mxGraphModel dx="2403" dy="1398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1953" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-66" value="开始" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="189" y="20" width="63" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-67" value="启动调试或附加调试？" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="116" y="118" width="209" height="209" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-68" value="初始化全局状态与独立线程" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="94" y="378" width="254" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-69" value="进入统一事件循环" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="126" y="476" width="190" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-70" value="执行控制命令（继续/单步等）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="574" width="244" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-71" value="断点命中或异常暂停" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="690" width="204" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-72" value="读取现场并回调界面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="40" y="789" width="204" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-73" value="是否终止会话？" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="140" y="887" width="161" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-74" value="结束目标进程" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="142" y="1121" width="158" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-75" value="结束" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="189" y="1219" width="64" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-76" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-66" target="LJTLL_L3JtGTRpQjIWLJ-67">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-77" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-67" target="LJTLL_L3JtGTRpQjIWLJ-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-78" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-68" target="LJTLL_L3JtGTRpQjIWLJ-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-79" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-69" target="LJTLL_L3JtGTRpQjIWLJ-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="142" y="549" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-80" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-70" target="LJTLL_L3JtGTRpQjIWLJ-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-81" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.02;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-71" target="LJTLL_L3JtGTRpQjIWLJ-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-82" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.13;entryY=0;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-72" target="LJTLL_L3JtGTRpQjIWLJ-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="142" y="862" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-83" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.87;exitY=0;entryX=0.7;entryY=1.01;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-73" target="LJTLL_L3JtGTRpQjIWLJ-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="299" y="862" />
+              <mxPoint x="299" y="549" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-84" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-73" target="LJTLL_L3JtGTRpQjIWLJ-74">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-85" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-74" target="LJTLL_L3JtGTRpQjIWLJ-75">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
