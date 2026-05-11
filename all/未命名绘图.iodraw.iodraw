@@ -4,6 +4,131 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-136" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="20" y="30" width="150" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-137" value="图形界面层" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="220" y="30" width="150" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-138" value="会话组织逻辑" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="420" y="30" width="150" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-139" value="远端大模型" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="636" y="30" width="150" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-140" value="本地工具层" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="836" y="30" width="150" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-141" value="底层调试引擎" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1036" y="30" width="150" height="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-142" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="484" y="321" width="638" height="526" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-143" value="[需要工具调用]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="LJTLL_L3JtGTRpQjIWLJ-142">
+          <mxGeometry x="30" width="608" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-144" value="[无需工具调用]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="LJTLL_L3JtGTRpQjIWLJ-142">
+          <mxGeometry y="430" width="638" height="3" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-145" value="发起AI分析" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-136" target="LJTLL_L3JtGTRpQjIWLJ-137">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204" y="139" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-146" value="提交上下文" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-137" target="LJTLL_L3JtGTRpQjIWLJ-138">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="404" y="193" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-147" value="发送消息与工具描述" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-138" target="LJTLL_L3JtGTRpQjIWLJ-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="612" y="247" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-148" value="返回分析响应" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-139" target="LJTLL_L3JtGTRpQjIWLJ-138">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-149" value="请求工具调用" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-139" target="LJTLL_L3JtGTRpQjIWLJ-138">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="402" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-150" value="执行工具" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-138" target="LJTLL_L3JtGTRpQjIWLJ-140">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="712" y="456" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-151" value="读取运行证据" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-140" target="LJTLL_L3JtGTRpQjIWLJ-141">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-152" value="返回证据" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-141" target="LJTLL_L3JtGTRpQjIWLJ-140">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1023" y="564" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-153" value="返回结构化结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-140" target="LJTLL_L3JtGTRpQjIWLJ-138">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="715" y="618" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-154" value="回注工具结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-138" target="LJTLL_L3JtGTRpQjIWLJ-139">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="612" y="672" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-155" value="返回分析结论" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-139" target="LJTLL_L3JtGTRpQjIWLJ-138">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="726" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-156" value="直接返回分析结论" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-139" target="LJTLL_L3JtGTRpQjIWLJ-138">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="827" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-157" value="展示结论与证据链" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-138" target="LJTLL_L3JtGTRpQjIWLJ-137">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="407" y="891" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-158" value="输出结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-137" target="LJTLL_L3JtGTRpQjIWLJ-136">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="207" y="945" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
