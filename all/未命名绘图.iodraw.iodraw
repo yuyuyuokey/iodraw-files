@@ -1,86 +1,9 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="RaQ8v2Y8b0hMOVi8FPgX">
-    <mxGraphModel dx="2813" dy="957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1644" dy="957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-116" value="导出接口层" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28.720001220703125;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="96" y="20" width="234" height="71.72000122070312" as="geometry" />
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-117" value="职责: 对外接口封装与调用入口" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LJTLL_L3JtGTRpQjIWLJ-116">
-          <mxGeometry y="28.720001220703125" width="234" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-118" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LJTLL_L3JtGTRpQjIWLJ-116">
-          <mxGeometry y="57.720001220703125" width="234" height="14" as="geometry" />
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-119" value="调试主控类" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28.720001220703125;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="96" y="168" width="234" height="71.72000122070312" as="geometry" />
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-120" value="职责: 调试流程控制与协调核心" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LJTLL_L3JtGTRpQjIWLJ-119">
-          <mxGeometry y="28.720001220703125" width="234" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-121" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LJTLL_L3JtGTRpQjIWLJ-119">
-          <mxGeometry y="57.720001220703125" width="234" height="14" as="geometry" />
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-122" value="断点管理器" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28.720001220703125;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="372" y="316" width="202" height="71.72000122070312" as="geometry" />
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-123" value="职责: 管理与维护多类断点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LJTLL_L3JtGTRpQjIWLJ-122">
-          <mxGeometry y="28.720001220703125" width="202" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-124" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LJTLL_L3JtGTRpQjIWLJ-122">
-          <mxGeometry y="57.720001220703125" width="202" height="14" as="geometry" />
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-125" value="线程管理器" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28.720001220703125;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="146" y="465" width="202" height="71.72000122070312" as="geometry" />
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-126" value="职责: 线程状态维护与调度" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LJTLL_L3JtGTRpQjIWLJ-125">
-          <mxGeometry y="28.720001220703125" width="202" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-127" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LJTLL_L3JtGTRpQjIWLJ-125">
-          <mxGeometry y="57.720001220703125" width="202" height="14" as="geometry" />
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-128" value="反汇编组件" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28.720001220703125;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="104" y="316" width="218" height="71.72000122070312" as="geometry" />
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-129" value="职责: 代码反汇编与指令分析" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="LJTLL_L3JtGTRpQjIWLJ-128">
-          <mxGeometry y="28.720001220703125" width="218" height="29" as="geometry" />
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-130" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="LJTLL_L3JtGTRpQjIWLJ-128">
-          <mxGeometry y="57.720001220703125" width="218" height="14" as="geometry" />
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-131" value="调用" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-116" target="LJTLL_L3JtGTRpQjIWLJ-119">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-132" value="管理断点" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=1;exitY=0.92;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-119" target="LJTLL_L3JtGTRpQjIWLJ-122">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="473" y="282" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-133" value="维护线程状态" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.06;exitY=1;entryX=0;entryY=0.08;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-119" target="LJTLL_L3JtGTRpQjIWLJ-125">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="20" y="282" />
-              <mxPoint x="20" y="430" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-134" value="请求反汇编与分析" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-119" target="LJTLL_L3JtGTRpQjIWLJ-128">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-135" value="硬件断点同步依赖" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.5;exitY=1;entryX=1;entryY=0.08;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-122" target="LJTLL_L3JtGTRpQjIWLJ-125">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="473" y="430" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
