@@ -1,11 +1,11 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="RaQ8v2Y8b0hMOVi8FPgX">
-    <mxGraphModel dx="1953" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2403" dy="1398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-44" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="70" y="470" width="1122" height="156" as="geometry" />
+          <mxGeometry x="909" y="90" width="1122" height="156" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-45" value="图4-1 调试会话建立与控制流程图" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="20" y="96" width="770" height="145" as="geometry" />
@@ -23,22 +23,22 @@
           <mxGeometry x="604" y="156" width="161" height="33" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-50" value="执行控制命令" style="strokeWidth=2;shape=process;whiteSpace=wrap;size=0.04;" vertex="1" parent="1">
-          <mxGeometry x="95" y="505" width="128" height="33" as="geometry" />
+          <mxGeometry x="934" y="125" width="128" height="33" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-51" value="断点命中/异常暂停" style="strokeWidth=2;shape=process;whiteSpace=wrap;size=0.04;" vertex="1" parent="1">
-          <mxGeometry x="272" y="505" width="167" height="33" as="geometry" />
+          <mxGeometry x="1111" y="125" width="167" height="33" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-52" value="读取现场并回调界面" style="strokeWidth=2;shape=process;whiteSpace=wrap;size=0.04;" vertex="1" parent="1">
-          <mxGeometry x="490" y="505" width="175" height="33" as="geometry" />
+          <mxGeometry x="1329" y="125" width="175" height="33" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-53" value="是否终止会话？" style="shape=hexagon;perimeter=hexagonPerimeter2;fixedSize=1;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="715" y="536" width="145" height="33" as="geometry" />
+          <mxGeometry x="1554" y="156" width="145" height="33" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-54" value="结束目标进程" style="strokeWidth=2;shape=process;whiteSpace=wrap;size=0.04;" vertex="1" parent="1">
-          <mxGeometry x="931" y="536" width="129" height="33" as="geometry" />
+          <mxGeometry x="1770" y="156" width="129" height="33" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-55" value="结束" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="536" width="57" height="33" as="geometry" />
+          <mxGeometry x="1949" y="156" width="57" height="33" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-56" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.52;entryX=0;entryY=0.52;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-46" target="LJTLL_L3JtGTRpQjIWLJ-47">
           <mxGeometry relative="1" as="geometry">
@@ -75,7 +75,7 @@
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-62" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0.14;entryY=0.01;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-52" target="LJTLL_L3JtGTRpQjIWLJ-53">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="690" y="522" />
+              <mxPoint x="1529" y="142" />
             </Array>
           </mxGeometry>
         </mxCell>
