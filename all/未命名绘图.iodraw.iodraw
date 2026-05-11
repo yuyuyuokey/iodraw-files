@@ -4,6 +4,90 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-454" value="模型发起工具调用" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="168" y="280" width="189" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-455" value="受控执行与校验 (参数/输入校验)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="378" width="176" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-456" value="异常隔离与反馈 (错误消息回注)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="83" y="517" width="173" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-457" value="推理收束判断 (证据阈值/轮次限制)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="306" y="517" width="208" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-458" value="结果解析与回退处理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="307" y="655" width="206" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-459" value="权限防范" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="353" y="754" width="113" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-460" value="人工确认后执行" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="216" y="939" width="173" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-461" value="输出分析结果" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="439" y="939" width="157" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-462" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.1;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-454" target="LJTLL_L3JtGTRpQjIWLJ-455">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="108" y="353" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-463" value="执行异常/无效" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.33;entryY=0;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-455" target="LJTLL_L3JtGTRpQjIWLJ-456">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="108" y="481" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-464" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.76;exitY=0;entryX=0.5;entryY=1.01;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-456" target="LJTLL_L3JtGTRpQjIWLJ-454">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="263" y="481" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-465" value="执行成功" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.95;entryX=0.29;entryY=0;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-455" target="LJTLL_L3JtGTRpQjIWLJ-457">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="317" y="481" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-466" value="证据不足" style="curved=1;startArrow=none;endArrow=block;exitX=0.56;exitY=0;entryX=0.96;entryY=1.01;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-457" target="LJTLL_L3JtGTRpQjIWLJ-454">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="437" y="481" />
+              <mxPoint x="437" y="353" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-467" value="证据充足" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-457" target="LJTLL_L3JtGTRpQjIWLJ-458">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-468" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.51;entryY=0;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-458" target="LJTLL_L3JtGTRpQjIWLJ-459">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-469" value="敏感操作" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.93;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-459" target="LJTLL_L3JtGTRpQjIWLJ-460">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="303" y="903" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-470" value="常规结论" style="curved=1;startArrow=none;endArrow=block;exitX=1.01;exitY=0.93;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-459" target="LJTLL_L3JtGTRpQjIWLJ-461">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="517" y="903" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
