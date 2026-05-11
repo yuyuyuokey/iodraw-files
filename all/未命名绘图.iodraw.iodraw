@@ -32,10 +32,10 @@
           <mxGeometry x="130" y="660" width="161" height="161" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-74" value="结束目标进程" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="143" y="1090" width="158" height="48" as="geometry" />
+          <mxGeometry x="131.5" y="880" width="158" height="48" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-75" value="结束" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="190" y="1170" width="64" height="48" as="geometry" />
+          <mxGeometry x="180" y="970" width="64" height="48" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-76" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-66" target="LJTLL_L3JtGTRpQjIWLJ-67">
           <mxGeometry relative="1" as="geometry">
