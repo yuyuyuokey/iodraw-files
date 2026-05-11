@@ -26,13 +26,13 @@
           <mxGeometry x="40" y="789" width="204" height="48" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-73" value="是否终止会话？" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="140" y="887" width="161" height="161" as="geometry" />
+          <mxGeometry x="140" y="870" width="161" height="161" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-74" value="结束目标进程" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="142" y="1121" width="158" height="48" as="geometry" />
+          <mxGeometry x="143" y="1090" width="158" height="48" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-75" value="结束" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="189" y="1219" width="64" height="48" as="geometry" />
+          <mxGeometry x="190" y="1170" width="64" height="48" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-76" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-66" target="LJTLL_L3JtGTRpQjIWLJ-67">
           <mxGeometry relative="1" as="geometry">
