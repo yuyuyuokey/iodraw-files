@@ -14,10 +14,10 @@
           <mxGeometry x="91.75" y="240" width="254" height="48" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-69" value="进入统一事件循环" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="126" y="476" width="190" height="48" as="geometry" />
+          <mxGeometry x="125.5" y="310" width="190" height="48" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-70" value="执行控制命令（继续/单步等）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="574" width="244" height="66" as="geometry" />
+          <mxGeometry x="20" y="550" width="244" height="66" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-71" value="断点命中或异常暂停" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="40" y="690" width="204" height="48" as="geometry" />
@@ -47,13 +47,6 @@
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-78" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-68" target="LJTLL_L3JtGTRpQjIWLJ-69">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-79" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-69" target="LJTLL_L3JtGTRpQjIWLJ-70">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="142" y="549" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-80" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-70" target="LJTLL_L3JtGTRpQjIWLJ-71">
