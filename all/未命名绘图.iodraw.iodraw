@@ -17,16 +17,16 @@
           <mxGeometry x="125.5" y="310" width="190" height="48" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-70" value="执行控制命令（继续/单步等）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="550" width="244" height="66" as="geometry" />
+          <mxGeometry x="20" y="410" width="244" height="66" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-71" value="断点命中或异常暂停" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="690" width="204" height="48" as="geometry" />
+          <mxGeometry x="40" y="510" width="204" height="48" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-72" value="读取现场并回调界面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="789" width="204" height="48" as="geometry" />
+          <mxGeometry x="40" y="600" width="204" height="48" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-73" value="是否终止会话？" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="140" y="870" width="161" height="161" as="geometry" />
+          <mxGeometry x="140" y="710" width="161" height="161" as="geometry" />
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-74" value="结束目标进程" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="143" y="1090" width="158" height="48" as="geometry" />
