@@ -34,6 +34,11 @@
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LJTLL_L3JtGTRpQjIWLJ-73">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="359.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="700" />
+              <mxPoint x="300" y="511" />
+              <mxPoint x="301" y="360" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="LJTLL_L3JtGTRpQjIWLJ-73" value="是否终止会话？" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
@@ -79,6 +84,9 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LJTLL_L3JtGTRpQjIWLJ-92" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="458" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
