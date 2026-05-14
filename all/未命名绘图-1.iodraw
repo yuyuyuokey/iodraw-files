@@ -46,6 +46,16 @@
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-115" value="异常事件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-45;" vertex="1" parent="1">
           <mxGeometry x="419" y="46" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-117" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="gUcPF1EfIpMto3ZLjo3b-104">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="224" y="156" as="sourcePoint" />
+            <mxPoint x="274" y="106" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="274" y="156" />
+              <mxPoint x="224" y="106" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
