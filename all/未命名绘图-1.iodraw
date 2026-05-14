@@ -4,55 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-3" value="DebuggerGUI.exe&#xa;图形界面层&#xa;&lt;small&gt;反汇编 | 寄存器 | 内存 | 调用栈 | 断点 | AI对话&lt;/small&gt;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="113" y="20" width="246" height="119" as="geometry" />
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-4" value="AITools.dll&#xa;AI 工具层&#xa;&lt;small&gt;17个工具 | 调度分发 | 上下文组织&lt;/small&gt;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="244" y="212" width="223" height="119" as="geometry" />
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-5" value="DebuggerEngine.dll&#xa;底层调试引擎&#xa;&lt;small&gt;进程控制 | 断点管理 | 反汇编 | 数据采集&lt;/small&gt;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="403" width="203" height="119" as="geometry" />
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-6" value="目标进程&#xa;Target Process" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="40" y="595" width="163" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-7" value="DeepSeek API&#xa;远端大模型" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="370" y="430" width="156" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-8" value="用户分析请求 / 工具调用" style="curved=1;startArrow=none;endArrow=block;exitX=0.8;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-3" target="gUcPF1EfIpMto3ZLjo3b-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="355" y="175" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-9" value="调试指令 / 数据读取" style="curved=1;startArrow=none;endArrow=block;exitX=0.18;exitY=1;entryX=0.86;entryY=0;rounded=0;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-4" target="gUcPF1EfIpMto3ZLjo3b-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="240" y="367" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-10" value="Win32 Debug API" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-5" target="gUcPF1EfIpMto3ZLjo3b-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-11" value="暂停事件回调 / 状态通知" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.35;exitY=0;entryX=0.09;entryY=1;rounded=0;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-5" target="gUcPF1EfIpMto3ZLjo3b-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="74" y="367" />
-              <mxPoint x="74" y="175" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-12" value="HTTPS / Function Calling" style="curved=1;startArrow=block;endArrow=block;exitX=0.76;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-4" target="gUcPF1EfIpMto3ZLjo3b-7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="448" y="367" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
