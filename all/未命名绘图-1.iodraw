@@ -7,8 +7,8 @@
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-101" value="等待调试事件&lt;div&gt;WaitForDebugEvent&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="543" y="-192" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-102" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="466" y="-63" width="80" height="80" as="geometry" />
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-102" value="事件类型分发" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="466" y="-63" width="118" height="89" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
