@@ -111,8 +111,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-193" target="gUcPF1EfIpMto3ZLjo3b-195">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-193">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="591.5" y="712.3922047334559" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-193" value="是否继续循环" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="524" y="548" width="135" height="114" as="geometry" />
