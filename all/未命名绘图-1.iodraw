@@ -1,82 +1,9 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="RaQ8v2Y8b0hMOVi8FPgX">
-    <mxGraphModel dx="1036" dy="1368" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1436" dy="968" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-81" value="DebuggerGUI.exe&lt;div&gt;图形界面层&lt;/div&gt;&lt;div&gt;反汇编|寄存器|内存|调用栈|断点|AI对话&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="715" y="-164" width="229" height="76" as="geometry" />
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-82" value="AITools.dll&lt;div&gt;AI工具层&lt;/div&gt;&lt;div&gt;17个工具|调度分发|上下文组织&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="933" y="-31" width="213" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-83" value="DebuggerEngine.dll&lt;div&gt;底层调试引擎&lt;/div&gt;&lt;div&gt;进程控制|断点管理|反汇编|数据采集&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="161" width="225" height="103" as="geometry" />
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-84" value="DeepSeek API&lt;div&gt;远端大模型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="985" y="209" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-85" value="目标进程&lt;div&gt;Target Process&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="642.5" y="356" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-86" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-83" target="gUcPF1EfIpMto3ZLjo3b-85">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="835" y="362" as="sourcePoint" />
-            <mxPoint x="885" y="312" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-87" value="Win32 Debug API" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="653" y="289" width="125" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-90" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-83" target="gUcPF1EfIpMto3ZLjo3b-82">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="835" y="124" as="sourcePoint" />
-            <mxPoint x="885" y="74" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-91" value="调试指令/状态通知" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-30;" vertex="1" parent="1">
-          <mxGeometry x="755" y="63" width="137" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-92" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-84" target="gUcPF1EfIpMto3ZLjo3b-82">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="835" y="124" as="sourcePoint" />
-            <mxPoint x="885" y="74" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-93" value="HTTPS/Function Calling" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="997" y="119" width="138" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-95" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="gUcPF1EfIpMto3ZLjo3b-81">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="704" y="156" as="sourcePoint" />
-            <mxPoint x="727.5" y="34" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="677.5" y="34" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-96" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-82" target="gUcPF1EfIpMto3ZLjo3b-81">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1066" y="-79" as="sourcePoint" />
-            <mxPoint x="1116" y="-129" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1116" y="-79" />
-              <mxPoint x="1066" y="-129" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-97" value="用户分析请求" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="974" y="-104" width="98" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-98" value="工具调用" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1109" y="-104" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-99" value="暂停事件回调" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="634" y="-10" width="98" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-100" value="状态通知" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="755" y="-10" width="60" height="30" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
