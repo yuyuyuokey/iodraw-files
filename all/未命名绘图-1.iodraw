@@ -8,7 +8,7 @@
           <mxGeometry x="566" y="-205" width="257" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-102" value="事件类型分发" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="493" y="-55" width="118" height="89" as="geometry" />
+          <mxGeometry x="468" y="-46" width="118" height="89" as="geometry" />
         </mxCell>
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-103" target="gUcPF1EfIpMto3ZLjo3b-105">
           <mxGeometry relative="1" as="geometry" />
@@ -121,7 +121,7 @@
             <mxPoint x="797" y="138" as="sourcePoint" />
             <mxPoint x="847" y="88" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="482" y="-128" />
+              <mxPoint x="573" y="-124" />
             </Array>
           </mxGeometry>
         </mxCell>
