@@ -4,6 +4,80 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-128" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="99" y="20" width="150" height="632" as="geometry" />
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-129" value="AI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="150" height="632" as="geometry" />
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-130" value="LLM" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="602" y="20" width="150" height="632" as="geometry" />
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-131" value="Eng" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="802" y="20" width="150" height="632" as="geometry" />
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-132" value="loop" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=40" vertex="1" parent="1">
+          <mxGeometry x="414" y="199" width="474" height="254" as="geometry" />
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-133" value="[多轮调用(上限12轮)]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="gUcPF1EfIpMto3ZLjo3b-132">
+          <mxGeometry x="40" width="434" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-134" value="触发分析(上下文+寄存器)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-128" target="gUcPF1EfIpMto3ZLjo3b-129">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="308" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-135" value="提示词+工具定义+上下文" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-129" target="gUcPF1EfIpMto3ZLjo3b-130">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-136" value="请求调用工具" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-130" target="gUcPF1EfIpMto3ZLjo3b-129">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="563" y="277" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-137" value="读取运行时数据" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-129" target="gUcPF1EfIpMto3ZLjo3b-131">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="329" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-138" value="返回结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-131" target="gUcPF1EfIpMto3ZLjo3b-129">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="663" y="381" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-139" value="追加结果继续推理" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-129" target="gUcPF1EfIpMto3ZLjo3b-130">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="433" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-140" value="最终分析结论" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-130" target="gUcPF1EfIpMto3ZLjo3b-129">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="563" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-141" value="结论+工具调用记录" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-129" target="gUcPF1EfIpMto3ZLjo3b-128">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="311" y="547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
