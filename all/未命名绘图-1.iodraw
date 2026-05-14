@@ -120,9 +120,11 @@
             <mxPoint x="546" y="606" as="targetPoint" />
             <Array as="points">
               <mxPoint x="493" y="610" />
-              <mxPoint x="533" y="628" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-195" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="726" y="518" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
