@@ -72,7 +72,7 @@
           <mxGeometry x="1109" y="-104" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-99" value="暂停事件回调" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="610" y="-10" width="98" height="30" as="geometry" />
+          <mxGeometry x="634" y="-10" width="98" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-100" value="状态通知" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="755" y="-10" width="60" height="30" as="geometry" />
