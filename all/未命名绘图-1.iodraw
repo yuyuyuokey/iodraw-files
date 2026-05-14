@@ -23,10 +23,10 @@
           <mxGeometry x="536" y="243" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-107" value="进程/线程等&lt;div&gt;其他事件处理&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="699" y="243" width="120" height="60" as="geometry" />
+          <mxGeometry x="731" y="243" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-108" value="继续调试&lt;div&gt;ContinueDebugEvent&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="369" y="388" width="248" height="73" as="geometry" />
+          <mxGeometry x="472" y="388" width="248" height="73" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
