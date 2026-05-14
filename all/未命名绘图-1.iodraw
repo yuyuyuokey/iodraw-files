@@ -28,9 +28,9 @@
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-108" value="继续调试&lt;div&gt;ContinueDebugEvent&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="472" y="388" width="248" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-109" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-109" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-102" target="gUcPF1EfIpMto3ZLjo3b-103">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="742" y="113" as="sourcePoint" />
+            <mxPoint x="522" y="65" as="sourcePoint" />
             <mxPoint x="902" y="113" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -42,6 +42,11 @@
         </mxCell>
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-112" value="Target" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="gUcPF1EfIpMto3ZLjo3b-109">
           <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-113" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gUcPF1EfIpMto3ZLjo3b-109">
+          <mxGeometry x="-0.0552" y="7" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
