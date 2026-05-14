@@ -28,11 +28,14 @@
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-87" value="Win32 Debug API" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="653" y="289" width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-90" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-83">
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-90" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-83" target="gUcPF1EfIpMto3ZLjo3b-82">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="835" y="124" as="sourcePoint" />
             <mxPoint x="885" y="74" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-91" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="84" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
