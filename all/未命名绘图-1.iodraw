@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.6.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="RaQ8v2Y8b0hMOVi8FPgX">
-    <mxGraphModel dx="1344" dy="1576" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" background="none" math="0" shadow="0">
+    <mxGraphModel dx="442" dy="968" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry x="590" y="161" width="225" height="103" as="geometry" />
         </mxCell>
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-84" value="DeepSeek API&lt;div&gt;远端大模型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1017" y="188" width="120" height="60" as="geometry" />
+          <mxGeometry x="1033" y="245" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-85" value="目标进程&lt;div&gt;Target Process&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="642.5" y="356" width="120" height="60" as="geometry" />
@@ -44,7 +44,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-93" value="HTTPS/Function Calling" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=75;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="84.75" width="60" height="30" as="geometry" />
+          <mxGeometry x="1021.09" y="122.42" width="138" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
