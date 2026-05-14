@@ -73,7 +73,7 @@
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-187" value="恢复目标程序执行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="377" y="484" width="155" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-188" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-188" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-178" target="gUcPF1EfIpMto3ZLjo3b-187">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="187" y="484" as="sourcePoint" />
             <mxPoint x="237" y="434" as="targetPoint" />
