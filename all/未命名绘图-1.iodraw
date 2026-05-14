@@ -43,8 +43,8 @@
             <mxPoint x="885" y="74" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-93" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="77" width="60" height="30" as="geometry" />
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-93" value="HTTPS/Function Calling" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=75;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="84.75" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
