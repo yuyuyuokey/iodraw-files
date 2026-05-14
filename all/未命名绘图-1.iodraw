@@ -46,12 +46,11 @@
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-93" value="HTTPS/Function Calling" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=75;" vertex="1" parent="1">
           <mxGeometry x="1021.09" y="122.42" width="138" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-95" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-95" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="gUcPF1EfIpMto3ZLjo3b-81">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="677.5" y="84" as="sourcePoint" />
+            <mxPoint x="704" y="156" as="sourcePoint" />
             <mxPoint x="727.5" y="34" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="727.5" y="84" />
               <mxPoint x="677.5" y="34" />
             </Array>
           </mxGeometry>
