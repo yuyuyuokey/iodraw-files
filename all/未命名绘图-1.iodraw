@@ -13,13 +13,12 @@
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-176" value="事件类型判定" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="332" y="158" width="111" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-177" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-177" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-175" target="gUcPF1EfIpMto3ZLjo3b-176">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="294" y="131" as="sourcePoint" />
             <mxPoint x="344" y="81" as="targetPoint" />
             <Array as="points">
               <mxPoint x="344" y="131" />
-              <mxPoint x="294" y="81" />
             </Array>
           </mxGeometry>
         </mxCell>
