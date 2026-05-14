@@ -14,7 +14,7 @@
           <mxGeometry x="590" y="161" width="225" height="103" as="geometry" />
         </mxCell>
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-84" value="DeepSeek API&lt;div&gt;远端大模型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1033" y="245" width="120" height="60" as="geometry" />
+          <mxGeometry x="985" y="209" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-85" value="目标进程&lt;div&gt;Target Process&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="642.5" y="356" width="120" height="60" as="geometry" />
