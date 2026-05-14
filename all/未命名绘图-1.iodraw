@@ -114,12 +114,12 @@
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-193" value="是否继续循环" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="597" width="135" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-194" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="gUcPF1EfIpMto3ZLjo3b-193">
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-194" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-187" target="gUcPF1EfIpMto3ZLjo3b-193">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="496" y="656" as="sourcePoint" />
             <mxPoint x="546" y="606" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="546" y="656" />
+              <mxPoint x="484" y="599" />
               <mxPoint x="496" y="606" />
             </Array>
           </mxGeometry>
