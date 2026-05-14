@@ -52,9 +52,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-65" value="进程创建" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.69;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-53" target="gUcPF1EfIpMto3ZLjo3b-54">
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-65" value="进程创建" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.69;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="141" y="352.94" />
+            </Array>
+            <mxPoint x="349.5579710144925" y="275.99797101449275" as="sourcePoint" />
+            <mxPoint x="141" y="574.94" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-66" value="线程事件" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-53" target="gUcPF1EfIpMto3ZLjo3b-55">
