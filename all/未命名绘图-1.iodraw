@@ -111,6 +111,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-193" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="746" y="508" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
