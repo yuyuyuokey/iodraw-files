@@ -10,6 +10,9 @@
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-102" value="事件类型分发" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="493" y="-55" width="118" height="89" as="geometry" />
         </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gUcPF1EfIpMto3ZLjo3b-103" target="gUcPF1EfIpMto3ZLjo3b-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-103" value="异常事件处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="341" y="117" width="120" height="60" as="geometry" />
         </mxCell>
@@ -40,8 +43,8 @@
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-112" value="Target" style="edgeLabel;resizable=0;html=1;;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="gUcPF1EfIpMto3ZLjo3b-109">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-115" value="异常事件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="406" y="39" width="60" height="30" as="geometry" />
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-115" value="异常事件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="419" y="46" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
