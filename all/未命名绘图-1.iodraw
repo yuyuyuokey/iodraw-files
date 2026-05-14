@@ -85,8 +85,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-245" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="726" y="322" width="120" height="60" as="geometry" />
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-245" value="GUI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="386" y="628" width="144" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-246" value="GUI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="396" y="638" width="144" height="69" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
