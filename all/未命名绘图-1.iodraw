@@ -70,8 +70,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-187" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="726" y="322" width="120" height="60" as="geometry" />
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-187" value="恢复目标程序执行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377" y="484" width="155" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-188" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="761" y="377" as="sourcePoint" />
+            <mxPoint x="811" y="327" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="811" y="377" />
+              <mxPoint x="761" y="327" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
