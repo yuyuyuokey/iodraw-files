@@ -28,7 +28,7 @@
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-180" value="会话初始化与断点恢复" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="275" y="348" width="140" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-181" value="会话初始化与断点恢复" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-181" value="线程列表与断点同步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="451" y="348" width="140" height="43" as="geometry" />
         </mxCell>
       </root>
