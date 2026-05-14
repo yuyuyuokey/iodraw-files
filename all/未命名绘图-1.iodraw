@@ -10,7 +10,7 @@
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-175" value="阻塞等待调试事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="443" y="35" width="198" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-176" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-176" value="事件类型判定" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="193" width="111" height="102" as="geometry" />
         </mxCell>
       </root>
