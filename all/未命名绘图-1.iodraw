@@ -13,8 +13,11 @@
         <mxCell id="gUcPF1EfIpMto3ZLjo3b-103" value="异常事件处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="112" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gUcPF1EfIpMto3ZLjo3b-104" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="762" y="83" width="120" height="60" as="geometry" />
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-104" value="断点异常处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="142" y="243" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gUcPF1EfIpMto3ZLjo3b-105" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="341" y="243" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
